@@ -1,0 +1,13 @@
+{
+  "name": "movie-library-web-app",
+  "version": "1.0.0",
+  "description": "Welcome to the Movie Library project! This project allows users to search for movies,view movie details and make the list public or priate.",
+  "main": "app.js",
+  "type": "module", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

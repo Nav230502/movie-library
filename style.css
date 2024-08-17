@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#movie-details {
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#movie-details div {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    width: calc(100% - 20px);
+    max-width: 600px;
+}
+
+#movie-details h2 {
+    margin: 0 0 10px;
+}
+
+#movie-details p {
+    margin: 5px 0;
+}
+
+#user-movie-list {
+    margin-top: 20px;
+}
+
+#user-movie-list-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#user-movie-list-content div {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    width: calc(100% - 20px);
+    max-width: 600px;
+}
+
+#public-link-container {
+    margin-top: 20px;
+}
+
+#public-link {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#copy-link-btn {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+#copy-link-btn:hover {
+    background-color: #0056b3;
+}
+
+#back-btn {
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #28a745;
+    display: block;
+}
+
+#signout-btn {
+    margin-top: 10px;
+    margin-left: auto;
+    background-color: #dc3545;
+}

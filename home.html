@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('image2.jpg');">
+    <div class="container">
+        <h1>Welcome to Your Movie List</h1>
+        <!-- Public Link at the top -->
+        <div id="public-link-container-top" style="display: none;">
+            <label for="public-link-top">Public Link:</label>
+            <input type="text" id="public-link-top" readonly>
+            <button id="copy-link-btn-top">Copy Link</button>
+        </div>
+        <div id="user-movie-list">
+            <h2>Your Movie List</h2>
+            <div id="user-movie-list-content"></div>
+        </div>
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Search for a movie...">
+            <button type="submit">Search</button>
+        </form>
+        <p>Please add a movie to display in the list.</p>
+        <div id="movie-details"></div>
+        <!-- Public Link at the bottom -->
+        <div id="public-link-container" style="display: none;">
+            <label for="public-link">Public Link:</label>
+            <input type="text" id="public-link" readonly>
+            <button id="copy-link-btn">Copy Link</button>
+        </div>
+        <button id="signout-btn">Sign Out</button>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
